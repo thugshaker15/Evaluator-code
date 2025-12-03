@@ -259,4 +259,106 @@ export const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 0.3,
   },
+
+  // metric rows, icons, and buttons for new summary UI ===
+  metricRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 4,
+  },
+  metricDotGood: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    marginRight: 8,
+    backgroundColor: '#2ecc71', // green
+  },
+  metricDotWarning: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    marginRight: 8,
+    backgroundColor: '#e74c3c', // red
+  },
+  metricLabel: {
+    flex: 1,
+    fontSize: 14,
+    color: '#222',
+  },
+  metricPercent: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  sectionHeaderRow: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    marginTop: 6,
+  },
+  viewMoreButton: {
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 999,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    backgroundColor: '#fafafa',
+  },
+  viewMoreButtonText: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: '#333',
+  },
+
+  // history & detail modal styling ===
+  historyButton: {
+    position: 'absolute',
+    bottom: 110,
+    left: 20,
+    right: 20,
+    backgroundColor: 'rgba(0,0,0,0.7)',
+    paddingVertical: 10,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  historyButtonText: {
+    color: 'white',
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  historyItem: {
+    paddingVertical: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  historyItemTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  historyItemSubtitle: {
+    fontSize: 12,
+    color: '#666',
+    marginTop: 2,
+  },
+  detailModalContent: {
+    width: '90%',
+    maxHeight: '80%',
+    backgroundColor: 'white',
+    borderRadius: 10,
+    padding: 20,
+  },
+  detailImagePlaceholder: {
+    height: 140,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 12,
+    backgroundColor: '#fafafa',
+  },
+  detailImageText: {
+    fontSize: 14,
+    color: '#555',
+  },
 });
+
